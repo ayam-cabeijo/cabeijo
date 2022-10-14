@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle cabeijo",
+        "command": "cabeijo:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "cabeijo",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "cabeijo:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
